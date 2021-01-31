@@ -41,7 +41,8 @@ def xmlMeanParser(index_file="index.txt"):
             frame = frame.append(temp)
             sys.stdout.write(".")
             sys.stdout.flush()
-        except:
+        except Exception as e:
+            print(e)
             continue
 
     frame = frame.mean(level="Time")
@@ -61,7 +62,8 @@ def xmlDemandsParser(index_file="index.txt"):
             frame = frame.append(temp)
             sys.stdout.write(".")
             sys.stdout.flush()
-        except:
+        except Exception as e:
+            print(e)
             continue
     sys.stdout.write('\n')
     return frame
