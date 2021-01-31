@@ -6,6 +6,6 @@ For using the parsers, the folder containing the source-file has to be in $PATHO
 
 To parse a set of XML-files, there has to exist an `index` file in which each line contains the path to a XML-file. Default name of this file is `index.txt`, but any name can be passed to the functions using the argument `index_file`. An easy way to generate these files (on linux) would be to store all the XML-files in one folder and then running
 ```
-ls -1 *.py > index.txt
+ls -1 *.xml > index.txt
 ```
 
