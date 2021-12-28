@@ -1,7 +1,7 @@
 '''
-small utility for parsing network-traffic-data from XML-files as i.e. provided for networks with dynamic traffic data in the SNDlib (www.sndlib.zib.de)
+small utility for parsing network-traffic-data from XML-files as provided e.g. for networks with dynamic traffic data in the SNDlib (www.sndlib.zib.de)
 for importing the function, the folder containing this file has to be in $PYTHONPATH
-the functions xmlparser.xmlMeanParser() and xmlparser.xmlDemandsParser() are designed for use outside this script and can be called afer importing
+the functions xmlparser.xmlMeanParser() and xmlparser.xmlDemandsParser() are designed for use outside of this script and can be called afer importing.
 the script uses the xmltodict python-library
 the path of the files to parse has to be given in an index file (default on path ./index.txt) 
 other index-file-paths can be passed through the index_file="..." argument of the functions 
