@@ -1,5 +1,5 @@
 # xmlparsing-python
-Small utility for parsing dynamic traffic-matricies in the form of XML-files as given i.e. for instances with dynamic traffic in the [SNDlib](http://sndlib.zib.de/home.action). Although designed for traffic-matricies, the code can be easily modified for parsing XML-files containing different data.
+Small utility for parsing dynamic traffic-matricies in the form of XML-files as given e.g. for instances with dynamic traffic in the [SNDlib](http://sndlib.zib.de/home.action). Although designed for traffic-matricies, the code can be easily modified for parsing XML-files containing different data.
 
 ## Usage
 For using the parsers, the folder containing the source-file has to be in $PYTHONPATH. After importing, the functions `xmlparser.xmlMeanParser()` and `xmlparser.xmlDemandsParser()` are available for outside use. For a description of the functions see code-comments .
